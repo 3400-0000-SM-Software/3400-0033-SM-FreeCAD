@@ -1,0 +1,21 @@
+# SM-FreeCAD.toml — the canonical "alpha" record for this repository.
+#
+# The authoritative, at-a-glance structured summary of what this repo holds and
+# who owns it. Instantiated from 9998-0006-SM-Skeleton's REPO.toml.
+
+[repo]
+name       = "3400-0000-SM-Software/3400-0033-SM-FreeCAD"
+purpose    = "Fork of FreeCAD/FreeCAD, used as a base for building SimpleMotion workbenches and add-ons against FreeCAD's source."
+owner      = "Greg Gowans"
+visibility = "public"   # a fork of a public repo cannot be made private
+updated    = 2026-09-29
+
+[upstream]
+repo        = "FreeCAD/FreeCAD"
+branch      = "main"
+licence     = "LGPL-2.1-or-later"
+forked_at   = "fd593d363e"   # upstream main when the fork was created, 2026-09-29
+assign_md   = false          # FreeCAD is not SimpleMotion IP; see README fork notice
+
+[ci]
+actions_enabled = false      # disabled 2026-09-29 so upstream's workflows cannot run on our minutes
