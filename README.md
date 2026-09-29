@@ -1,3 +1,18 @@
+<!-- BEGIN SimpleMotion fork notice. Keep this block self-contained so upstream merges touch only the text below it. -->
+> [!NOTE]
+> **This is SimpleMotion's fork of [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)** (`3400-0000-SM-Software/3400-0033-SM-FreeCAD`).
+>
+> **What it is for:** a base for building SimpleMotion workbenches and add-ons against FreeCAD's own source. We use it to build FreeCAD locally, read and debug the internals a workbench depends on, and pin the upstream revision our add-ons are tested against.
+>
+> **What it is not:** it is not a SimpleMotion product, and not a place for general changes to FreeCAD. A workbench we ship should live in its own SimpleMotion repo and install through FreeCAD's Addon Manager. Changes to FreeCAD itself belong upstream, subject to the [FreeCAD AI Policy](AI_POLICY.md).
+>
+> **Licence:** FreeCAD stays under the [LGPL-2.1-or-later](LICENSE) and belongs to its contributors. This fork deliberately carries no SimpleMotion `ASSIGN.md`, because FreeCAD cannot be reassigned or relicensed.
+>
+> **Upstream:** `main` tracks `FreeCAD/FreeCAD` `main`. Everything below this notice is upstream's own README.
+>
+> SimpleMotion files: [`CLAUDE.md`](CLAUDE.md), [`CHANGE.md`](CHANGE.md), [`SECURE.md`](SECURE.md), [`SM-FreeCAD.toml`](SM-FreeCAD.toml), [`.sm-version`](.sm-version).
+<!-- END SimpleMotion fork notice -->
+
 <a href="https://freecad.org"><img src="/src/Gui/Icons/freecad.svg" height="100px" width="100px"></a>
 
 ### Your own 3D Parametric Modeler
