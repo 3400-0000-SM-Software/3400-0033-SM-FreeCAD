@@ -10,7 +10,7 @@
 >
 > **Upstream:** `main` tracks `FreeCAD/FreeCAD` `main`. Everything below this notice is upstream's own README.
 >
-> SimpleMotion files: [`CLAUDE.md`](CLAUDE.md), [`CHANGE.md`](CHANGE.md), [`SECURE.md`](SECURE.md), [`SM-FreeCAD.toml`](SM-FreeCAD.toml), [`.sm-version`](.sm-version).
+> SimpleMotion files: [`CLAUDE.md`](CLAUDE.md), [`CHANGE.md`](CHANGE.md), [`SECURE.md`](SECURE.md), [`sm-repo.toml`](sm-repo.toml), [`SM-FreeCAD.toml`](SM-FreeCAD.toml), [`.sm-version`](.sm-version).
 <!-- END SimpleMotion fork notice -->
 
 <a href="https://freecad.org"><img src="/src/Gui/Icons/freecad.svg" height="100px" width="100px"></a>

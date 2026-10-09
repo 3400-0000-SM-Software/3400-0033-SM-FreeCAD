@@ -1,0 +1,47 @@
+# sm-repo.toml — the "Alpha" of this repo.
+# Repo-authored statement of what this repository represents.
+# Generated/refreshed by sm-alpha; spec: SM-ALPHA.md. Narrative fields
+# ([purpose], [relationships], keywords, docs, maintainers) are yours to
+# refine — `sm-alpha refresh` preserves them and updates only derived fields.
+# Repo-specific tables follow [meta] and are kept as written.
+
+schema_version = 1
+
+[alpha]
+name       = "3400-0033-SM-FreeCAD"
+org_id     = "3400"
+repo_id    = "0033"
+type       = "SM"
+role       = "FreeCAD"
+tier       = 2
+parent_org = "3400-SM-Software"
+entity     = "SimpleMotion.Design Pty Ltd"
+visibility = "private"          # GitHub is authoritative
+status     = "active"           # active | paused | archived
+lifecycle  = "live"             # idea | wip | live | maintenance | retired
+summary    = "Fork of FreeCAD/FreeCAD, used as a base for building SimpleMotion workbenches and add-ons against FreeCAD's source."
+keywords   = []
+
+[purpose]
+represents = """Fork of FreeCAD/FreeCAD, used as a base for building SimpleMotion workbenches and add-ons against FreeCAD's source."""
+scope        = []
+out_of_scope = []
+
+[relationships]
+related    = []
+depends_on = []
+consumers  = []
+
+[pointers]
+readme        = "README.md"
+working_rules = "CLAUDE.md"
+docs          = ["SM-FreeCAD.toml"]
+
+[ownership]
+owning_org  = "3400-SM-Software"
+maintainers = ["Greg Gowans"]
+
+[meta]
+generated_by = "sm-alpha"
+migrated_from = ["SM-FreeCAD.toml"]
+updated      = "2026-10-09"
