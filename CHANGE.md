@@ -26,6 +26,7 @@ Rows carry `—` in Version and Hash until that changes.
 | Version | Hash | Date | Author | Notes |
 |---------|------|------|--------|-------|
 | — | — | 2026-09-29 15:08 UTC | Greg Gowans | **Add the SimpleMotion default files to the FreeCAD fork.** A fork notice at the top of README.md explains that the fork is a base for building SM workbenches and add-ons, and leaves upstream's README intact below it. Adds CLAUDE.md, CHANGE.md, SECURE.md, SM-FreeCAD.toml and .sm-version from 9998-0006-SM-Skeleton. ASSIGN.md is deliberately omitted because FreeCAD is LGPL-2.1 and not SimpleMotion IP, and the sm-ci and sm-pr stubs are omitted because Actions is disabled and a public repo cannot call the internal reusable workflows. |
+| &mdash; | &mdash; | 2026-10-09 UTC | Greg Gowans | **Record visibility as GitHub reports it (public).** `sm-repo.toml` said `private`, a guess the generator made for repos the registry does not list; `sm-alpha refresh` now reads GitHub, and `check` compares the two. |
 | &mdash; | &mdash; | 2026-10-09 UTC | Greg Gowans | **Move the alpha record to `sm-repo.toml`.** Identity and narrative from `SM-FreeCAD.toml` move to `sm-repo.toml` in the SM-ALPHA schema, converted by `sm-alpha migrate`. `SM-FreeCAD.toml` keeps its name and its data tables, which other files cite by path; only its `[repo]` table and alpha-record header are removed. CLAUDE.md and README name the new record. |
 
 ---
