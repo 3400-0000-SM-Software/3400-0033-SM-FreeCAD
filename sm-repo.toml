@@ -15,7 +15,7 @@ type       = "SM"
 role       = "FreeCAD"
 tier       = 2
 parent_org = "3400-SM-Software"
-entity     = "SimpleMotion.Design Pty Ltd"
+entity     = ""
 visibility = "public"           # GitHub is authoritative
 status     = "active"           # active | paused | archived
 lifecycle  = "live"             # idea | wip | live | maintenance | retired
@@ -44,4 +44,4 @@ maintainers = ["Greg Gowans"]
 [meta]
 generated_by = "sm-alpha"
 migrated_from = ["SM-FreeCAD.toml"]
-updated      = "2026-10-09"
+updated      = "2026-10-16"
